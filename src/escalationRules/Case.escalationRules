@@ -21,9 +21,9 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>120</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>
@@ -49,9 +49,9 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>
@@ -77,9 +77,9 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>240</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>
@@ -105,9 +105,9 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>480</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>
@@ -128,9 +128,9 @@
                 <value>Silver</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>720</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>
@@ -151,9 +151,9 @@
                 <value>Bronze</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>1440</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>
@@ -174,9 +174,9 @@
                 <value>Gold,Platinum</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>
@@ -197,9 +197,9 @@
                 <value>Silver,Bronze</value>
             </criteriaItems>
             <escalationAction>
-                <assignedTo>bts@everfusion.com.dev</assignedTo>
+                <assignedTo>CaseQueue</assignedTo>
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
-                <assignedToType>User</assignedToType>
+                <assignedToType>Queue</assignedToType>
                 <minutesToEscalation>1080</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
                 <notifyTo>bts@everfusion.com.dev</notifyTo>

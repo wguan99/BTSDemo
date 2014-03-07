@@ -4,8 +4,8 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>bts@everfusion.com.dev</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>CaseQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
@@ -23,8 +23,8 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>bts@everfusion.com.dev</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>CaseQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
@@ -42,8 +42,8 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>bts@everfusion.com.dev</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>CaseQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>notEqual</operation>
@@ -61,8 +61,8 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>bts@everfusion.com.dev</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>CaseQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>notEqual</operation>
@@ -80,8 +80,8 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>bts@everfusion.com.dev</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>CaseQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
                 <operation>contains</operation>
