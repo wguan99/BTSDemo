@@ -2,15 +2,13 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>TestClass</members>
+        <members>TestClassExtra</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>TestPage</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApprovalProcess</name>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
     </types>
     <types>
         <members>Case</members>
@@ -27,11 +25,26 @@
         <name>Community</name>
     </types>
     <types>
+        <members>standard__AppLauncher</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <members>standard__Work</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>CustomLabels</members>
         <name>CustomLabels</name>
     </types>
     <types>
         <members>Account</members>
+        <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>Activity</members>
         <members>Asset</members>
@@ -40,30 +53,35 @@
         <members>Case</members>
         <members>CaseContactRole</members>
         <members>Contact</members>
+        <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
+        <members>DandBCompany</members>
         <members>Event</members>
         <members>Idea</members>
         <members>Lead</members>
+        <members>LeadCleanInfo</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
         <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
+        <members>PricebookEntry</members>
         <members>Product2</members>
         <members>Site</members>
-        <members>SiteChangelist</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>Task</members>
-        <members>TestObject__c</members>
+        <members>Test_Object__c</members>
         <members>User</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>TestObject__c-en_US</members>
+        <members>Test_Object__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -104,13 +122,13 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
-        <members>CaseInteraction-Case Feed Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
         <members>Contact-Contact Layout</members>
         <members>ContentVersion-General</members>
         <members>Contract-Contract Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
         <members>Event-Event Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
@@ -123,13 +141,16 @@
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
         <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>SocialPersona-Social Persona Layout</members>
         <members>SocialPost-Social Post Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
-        <members>TestObject__c-TestObject Layout</members>
+        <members>Test_Object__c-Test Object Layout</members>
         <members>User-User Layout</members>
         <name>Layout</name>
     </types>
@@ -139,6 +160,7 @@
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
         <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
         <members>Custom%3A Support Profile</members>
@@ -161,28 +183,12 @@
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
+        <members>Test Profile</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
     </types>
     <types>
-        <members>CaseQueue</members>
-        <members>LeadQueue</members>
-        <name>Queue</name>
-    </types>
-    <types>
-        <members>ChangeDueDate</members>
-        <members>ChangePriority</members>
-        <members>ChangeStatus</members>
-        <members>LogACall</members>
-        <members>NewAccount</members>
-        <members>NewCase</members>
-        <members>NewChildCase</members>
-        <members>NewContact</members>
-        <members>NewEvent</members>
-        <members>NewLead</members>
-        <members>NewNote</members>
-        <members>NewOpportunity</members>
-        <members>NewTask</members>
+        <members>*</members>
         <name>QuickAction</name>
     </types>
     <types>
@@ -226,18 +232,21 @@
         <members>Case</members>
         <members>Contact</members>
         <members>Contract</members>
+        <members>DandBCompany</members>
         <members>Event</members>
         <members>Idea</members>
         <members>Lead</members>
         <members>Opportunity</members>
         <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
         <members>Organization</members>
         <members>Product2</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>Task</members>
-        <members>TestObject__c</members>
+        <members>Test_Object__c</members>
         <members>User</members>
         <members>UserLicense</members>
         <name>Workflow</name>
@@ -258,10 +267,11 @@
         <members>LiveAgent</members>
         <members>Mobile</members>
         <members>Opportunity</members>
+        <members>Order</members>
         <members>Product</members>
         <members>Quote</members>
         <members>Security</members>
         <name>Settings</name>
     </types>
-    <version>29.0</version>
+    <version>30.0</version>
 </Package>

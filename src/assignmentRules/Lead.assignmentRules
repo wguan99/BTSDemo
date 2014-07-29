@@ -4,8 +4,8 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>LeadQueue</assignedTo>
-            <assignedToType>Queue</assignedToType>
+            <assignedTo>meta@everfusion.com.dev</assignedTo>
+            <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
@@ -13,8 +13,8 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>LeadQueue</assignedTo>
-            <assignedToType>Queue</assignedToType>
+            <assignedTo>meta@everfusion.com.dev</assignedTo>
+            <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>notEqual</operation>

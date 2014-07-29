@@ -8,6 +8,7 @@
         <lockoutInterval>FifteenMinutes</lockoutInterval>
         <maxLoginAttempts>TenAttempts</maxLoginAttempts>
         <minPasswordLength>EightCharacters</minPasswordLength>
+        <obscureSecretAnswer>false</obscureSecretAnswer>
         <questionRestriction>DoesNotContainPassword</questionRestriction>
     </passwordPolicies>
     <sessionSettings>
@@ -15,12 +16,11 @@
         <enableCSRFOnGet>true</enableCSRFOnGet>
         <enableCSRFOnPost>true</enableCSRFOnPost>
         <enableCacheAndAutocomplete>true</enableCacheAndAutocomplete>
-        <enableClickjackNonsetupSFDC>false</enableClickjackNonsetupSFDC>
+        <enableClickjackNonsetupSFDC>true</enableClickjackNonsetupSFDC>
         <enableClickjackNonsetupUser>false</enableClickjackNonsetupUser>
         <enableClickjackSetup>true</enableClickjackSetup>
         <enableSMSIdentity>true</enableSMSIdentity>
         <forceRelogin>false</forceRelogin>
         <lockSessionsToIp>false</lockSessionsToIp>
-        <sessionTimeout>TwoHours</sessionTimeout>
     </sessionSettings>
 </SecuritySettings>

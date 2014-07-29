@@ -51,33 +51,21 @@
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <fields>
-        <fullName>TestField1__c</fullName>
+        <fullName>TestField__c</fullName>
         <externalId>false</externalId>
-        <label>TestField1</label>
-        <precision>18</precision>
+        <label>TestField</label>
+        <length>50</length>
         <required>false</required>
-        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
+        <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>TestField2__c</fullName>
-        <externalId>false</externalId>
-        <label>TestField2</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <label>TestObject</label>
+    <label>Test Object</label>
     <nameField>
-        <label>TestObject Name</label>
+        <label>Test Object Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>TestObjects</pluralLabel>
+    <pluralLabel>Test Objects</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

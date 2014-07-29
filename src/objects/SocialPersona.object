@@ -28,12 +28,18 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
+    <fields>
+        <fullName>ParentId</fullName>
+        <type>MasterDetail</type>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Name</customTabListAdditionalFields>
         <customTabListAdditionalFields>Provider</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Name</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Provider</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

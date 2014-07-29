@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -35,28 +47,9 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <fields>
-        <fullName>CallCenterId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ContactId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>DelegatedApproverId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ProfileId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>UserRoleId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>WorkspaceId</fullName>
-        <type>Lookup</type>
+        <fullName>ManagerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Hierarchy</type>
     </fields>
     <listViews>
         <fullName>ActiveUsers</fullName>
@@ -97,4 +90,5 @@
         <searchResultsAdditionalFields>CORE.USERS.EMAIL</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USER_ROLE.NAME</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>Read</sharingModel>
 </CustomObject>
